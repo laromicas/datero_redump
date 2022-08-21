@@ -1,0 +1,43 @@
+{
+    "{dat_path}/bios": [
+        {
+            "action": "LoadDatFile",
+            "class_name": "lib.dat.redump.RedumpBiosDat"
+        },
+        {
+            "action": "DeleteOld"
+        },
+        {
+            "action": "Copy",
+            "folder": "DatRoot"
+        },
+        {
+            "action": "SaveToDatabase"
+        }
+    ],
+    "{dat_path}/cues": [
+        {
+            "action": "Copy",
+            "folder": "ToSort",
+            "destination": "tmp/cues",
+        }
+    ],
+    "{dat_path}/gdi": [],
+    "{dat_path}/datfile": [
+        {
+            "action": "LoadDatFile",
+            "class_name": "lib.dat.redump.RedumpDat"
+        },
+        {
+            "action": "DeleteOld"
+        },
+        {
+            "action": "Copy",
+            "folder": "DatRoot"
+        },
+        {
+            "action": "SaveToDatabase"
+        }
+    ],
+    "{dat_path}/sbi": []
+}
