@@ -2,7 +2,7 @@
     "{dat_path}/bios": [
         {
             "action": "LoadDatFile",
-            "class_name": "lib.dat.redump.RedumpBiosDat"
+            "class_name": "seeds.redump.redump.dat.RedumpBiosDat"
         },
         {
             "action": "DeleteOld"
@@ -26,7 +26,7 @@
     "{dat_path}/datfile": [
         {
             "action": "LoadDatFile",
-            "class_name": "lib.dat.redump.RedumpDat"
+            "class_name": "seeds.redump.redump.dat.RedumpDat"
         },
         {
             "action": "DeleteOld"
