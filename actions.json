@@ -19,7 +19,7 @@
         {
             "action": "Copy",
             "folder": "ToSort",
-            "destination": "tmp/cues",
+            "destination": "tmp/cues"
         }
     ],
     "{dat_path}/gdi": [],
