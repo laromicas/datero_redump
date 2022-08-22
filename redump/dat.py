@@ -9,7 +9,7 @@ from datero.commands import config
 
 class RedumpDat(XMLDatFile):
     """ Redump XML Dat class. """
-    repo: str = 'redump'
+    seed: str = 'redump'
 
     def initial_parse(self) -> list:
         """ Parse the dat file. """
@@ -62,7 +62,7 @@ class RedumpDat(XMLDatFile):
 class RedumpBiosDat(ClrMameProDatFile):
     """ Redump BIOS Dat class. """
     system_type: str = 'BIOS'
-    repo: str = 'redump'
+    seed: str = 'redump'
 
     def initial_parse(self) -> list:
         """ Parse the dat file. """
