@@ -2,7 +2,7 @@
     "{dat_path}/bios": [
         {
             "action": "LoadDatFile",
-            "class_name": "seeds.redump.redump.dat.RedumpBiosDat"
+            "class_name": "datero.seeds.redump.redump.dat.RedumpBiosDat"
         },
         {
             "action": "DeleteOld"
