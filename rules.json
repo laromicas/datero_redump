@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Redump BIOS DAT",
+        "class_name": "datero.seeds.redump.redump.dat.RedumpBiosDat",
+        "seed": "redump",
+        "priority": 60,
+        "rules": [
+            {
+                "key": "author",
+                "operator": "contains",
+                "value": "redump.org"
+            },
+            {
+                "key": "description",
+                "operator": "contains",
+                "value": "BIOS Images",
+                "case_sensitive": false
+            }
+        ]
+    },
+    {
+        "name": "Redump DAT",
+        "class_name": "datero.seeds.redump.redump.dat.RedumpDat",
+        "seed": "redump",
+        "priority": 50,
+        "rules": [
+            {
+                "key": "url",
+                "operator": "contains",
+                "value": "redump.org"
+            },
+            {
+                "key": "homepage",
+                "operator": "eq",
+                "value": "redump.org"
+            },
+            {
+                "key": "description",
+                "operator": "contains",
+                "value": "Discs",
+                "case_sensitive": false
+            }
+        ]
+    }
+]
